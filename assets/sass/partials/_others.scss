@@ -1,0 +1,26 @@
+#other{
+    .about{
+        padding-bottom: 3rem;
+        p{
+            color: #888;
+        }
+        .desc{
+            p{
+                max-width: 40%;
+                color: white;
+                font-size: 1.7rem;
+            }
+            a{
+                color: white;
+                font-size: 1.7rem;
+                transition: ease-in-out 0.2s;
+            }
+            a:hover{
+                color: #987750;
+                border-bottom: 1px solid #987750;
+            }
+            
+        }
+        
+    }
+}

@@ -1,0 +1,26 @@
+body{
+    position: relative;
+    .container{
+        max-width: 76%;
+    }
+    background-color: #1d1b19;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    a{
+        text-decoration: none !important;
+    }
+   overflow-x: hidden;
+}
+.upper{
+    text-transform: uppercase;
+
+}
+.main{
+    border-right: 1px solid gray;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+

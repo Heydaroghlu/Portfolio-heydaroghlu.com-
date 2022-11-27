@@ -1,0 +1,16 @@
+.tools{
+    .card{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    img{
+        max-width: 100%;
+        cursor: pointer;
+        transition: ease-in-out 0.5s;
+    }
+    img:hover{
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+    }
+}

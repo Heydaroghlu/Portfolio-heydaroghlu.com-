@@ -1,0 +1,40 @@
+
+#menu{
+    color: white;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    p:hover{
+        color: #987750;
+    }
+    .container{
+        max-width: 96%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    overflow: hidden;
+    position: fixed;
+    top: 5%;
+    width: 100%;
+    h3{cursor: pointer;}
+    h3:hover{
+        color: #987750;
+    }
+   p{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+   }
+    i{
+        font-size: 1.8rem;
+        padding-left: 1rem;
+    }
+
+}
