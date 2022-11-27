@@ -9,6 +9,10 @@ body{
         text-decoration: none !important;
     }
    overflow-x: hidden;
+   box-sizing: border-box;
+   .row{
+    --bs-gutter-x: 0rem !important;
+   }
 }
 .upper{
     text-transform: uppercase;

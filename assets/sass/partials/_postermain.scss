@@ -1,0 +1,37 @@
+#posterMain{
+    height: 400px;
+    width: 100%;
+    padding-top: 5rem;
+    display: none;
+    .posterImg{
+        display: flex;
+        justify-content: center;
+        img{
+            height: 300px;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+    }
+    .posterBottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+        h3{
+            color: #888;
+            cursor: pointer;
+            transition: ease-in-out 0.3s;
+        }
+        h3:hover{
+            color: #987750;
+        }
+        h2{
+            color: #888;
+            cursor: pointer;
+            transition: ease-in-out 0.3s;
+        }
+        h2:hover{
+            color: #987750;
+        }
+    }
+}

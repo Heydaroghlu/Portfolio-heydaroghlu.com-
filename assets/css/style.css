@@ -104,6 +104,9 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+#left .main .col-xl-3 {
+  padding: 0.5rem;
+}
 #left .main #intro {
   padding: 0;
   font-size: 18px;
@@ -215,12 +218,16 @@ body {
   background-color: #1d1b19;
   font-family: Georgia, "Times New Roman", Times, serif;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 body .container {
   max-width: 76%;
 }
 body a {
   text-decoration: none !important;
+}
+body .row {
+  --bs-gutter-x: 0rem !important;
 }
 
 .upper {
@@ -293,13 +300,13 @@ body a {
   color: #888;
 }
 #other .about .desc p {
-  max-width: 40%;
+  max-width: 68%;
   color: white;
   font-size: 1.7rem;
 }
 #other .about .desc a {
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   transition: ease-in-out 0.2s;
 }
 #other .about .desc a:hover {
@@ -307,12 +314,69 @@ body a {
   border-bottom: 1px solid #987750;
 }
 
-@media (max-width: 970px) {
+#posterMain {
+  height: 400px;
+  width: 100%;
+  padding-top: 5rem;
+  display: none;
+}
+#posterMain .posterImg {
+  display: flex;
+  justify-content: center;
+}
+#posterMain .posterImg img {
+  height: 300px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+#posterMain .posterBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+#posterMain .posterBottom h3 {
+  color: #888;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+#posterMain .posterBottom h3:hover {
+  color: #987750;
+}
+#posterMain .posterBottom h2 {
+  color: #888;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+#posterMain .posterBottom h2:hover {
+  color: #987750;
+}
+
+@media (max-width: 767.98px) {
+  .main {
+    border: none !important;
+  }
+}
+@media (max-width: 991.98px) {
   .container {
-    max-width: 98% !important;
+    max-width: 80%;
+  }
+  #posterMain {
+    display: block;
+  }
+  #posterMain .main {
+    border: none !important;
+  }
+  #right {
+    display: none !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 98%;
   }
   body #right {
-    display: none;
+    display: block;
   }
   #menu {
     top: 0%;
@@ -323,8 +387,5 @@ body a {
   }
   #menu i {
     color: #987750;
-  }
-  .main {
-    border: none !important;
   }
 }/*# sourceMappingURL=style.css.map */
