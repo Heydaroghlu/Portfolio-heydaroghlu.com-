@@ -12,7 +12,7 @@
             }
             a{
                 color: white;
-                font-size: 1.6rem;
+                font-size: 1.3rem;
                 transition: ease-in-out 0.2s;
             }
             a:hover{
@@ -22,5 +22,19 @@
             
         }
         
+    }
+    .about2{
+        padding-bottom: 3rem;
+        p{
+            width: 100% !important;
+            color: #888;
+        }
+        a{
+            width: 100% !important;
+            color: #888;
+        }
+        a:hover{
+            color: #987750;
+        }
     }
 }

@@ -2,6 +2,7 @@ $(function () {
     var left = $("#left");
     var right = $("#right");
     var logo=$("#menu h3")
+    
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
 

@@ -1,4 +1,5 @@
 #contactForm{
+    
     input{
         width: 100%;
         height: 3rem;
@@ -7,6 +8,9 @@
         color: #888;
         border: 1px solid #987750;
         margin-bottom: 1rem;
+    }
+    .row{
+        --bs-gutter-x: 1rem  !important;
     }
     textarea{
         width: 100%;

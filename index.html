@@ -19,15 +19,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
   </head>
   <body>
     <header>
         <div id="menu">
              <div class="container">
               <h3>Heydaroghlu</h3>
-              <div><p><span>Menu</span> <i class="fa-solid fa-bars"></i></p></div>
              </div>
         </div>
+        
     </header>
     <main>
       <div class="row">
@@ -82,67 +84,60 @@
                 </p>
               </div>
             </div>
+            
             <div class="main">
               <div class="container">
-                <p id="intro">CUSTOMERS</p>
-                <h1>Happy People</h1>
+                <p id="intro">Technologies</p>
+                <h1>Tools</h1>
                 <div class="tools">
                   <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
-                      <div class="card">
-                        <img
-                          src="./assets/img/606524_html_4096x4096.png"
-                          class="card-img-top"
-                          alt="..."
-                        />
+                    <div class="owl-carousel owl-theme">
+                      <div class="item">
+                        <div class="card">
+                          <img
+                            src="./assets/img/288877.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
-                      <div class="card">
-                        <img
-                          src="./assets/img/css3-01_icon-icons.com_50918.png"
-                          class="card-img-top"
-                          alt="..."
-                        />
+                      <div class="item">
+                        <div class="card">
+                          <img
+                            src="./assets/img/606524_html_4096x4096.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
-                      <div class="card">
-                        <img
-                          src="./assets/img/288877.png"
-                          class="card-img-top"
-                          alt="..."
-                        />
-                      </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
-                      <div class="card">
-                        <img
+                      <div class="item">
+                        <div class="card">
+                          <img
                           src="./assets/img/download.png"
                           class="card-img-top"
                           alt="..."
                         />
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
-                      <div class="card">
-                        <img
-                          src="./assets/img/microsoft-dot-net-1-1175179.png"
-                          class="card-img-top"
-                          alt="..."
-                        />
+                      <div class="item">
+                        <div class="card">
+                          <img
+                            src="./assets/img/microsoft-dot-net-1-1175179.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </div>
                       </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
-                      <div class="card">
-                        <img
-                          src="./assets/img/606524_html_4096x4096.png"
-                          class="card-img-top"
-                          alt="..."
-                        />
+                      <div class="item">
+                        <div class="card">
+                          <img
+                            src="./assets/img/606524_html_4096x4096.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </div>
                       </div>
-                    </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -198,6 +193,16 @@
                    <a  href="mailto:isaheydaroghlu@gmail.com">isaheydaroghlu@gmail.com</a>
                  </div>
                </div>
+               <div class="about">
+                <p>GitHub</p>
+                <div class="desc">
+                  <a href="https://github.com/Heydaroghlu">Go <i class="fa-sharp fa-solid fa-right-to-bracket"></i></a>
+                </div>
+              </div>
+               <div class="about2">
+                <p>Copyright © 2022. All rights reserved.</p>
+                <p>Welcome to <a href="odf-group.com">ODF Group</a></p>
+              </div>
               </div>
               </div>
            </div>
@@ -209,6 +214,9 @@
           <div class="desc">
             <div class="column">
               <h3> Heydaroghlu Isa</h3>
+            </div>
+            <div class="major">
+              <p>Software Engineer</p>
             </div>
             <div class="column">
               <p>Copyright © 2022. All rights reserved.</p>
@@ -235,5 +243,28 @@
     ></script>
     <script src="./assets/js/scroll.js"></script>
     <script src="./assets/js/circle.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    loop:true,
+    dots:false,
+    autoplay: true,
+autoplayTimeout: 1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600 :{
+            items:2
+        },
+        1200 :{
+            items:3
+        }
+    }
+})
+    </script>
   </body>
 </html>

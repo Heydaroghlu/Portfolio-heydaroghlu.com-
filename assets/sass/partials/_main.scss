@@ -31,7 +31,7 @@
             justify-content: center;
             h3{
                 color: #888;
-                margin-bottom: 20%;
+                margin-bottom: 5%;
                 cursor: pointer;
                 transition: ease-in-out 0.3s;
             }
@@ -51,6 +51,15 @@
                 font-size: 1.2rem;
             }
         }
+        .major{
+            display: flex;
+            justify-content: center;
+            p{
+                padding: 0% !important;
+                font-size: 1.4rem;
+                color: #987750;
+            }
+        }
        
     }
   
@@ -61,10 +70,14 @@
    transition: ease-in-out 0.5s;
    margin-bottom: 1rem;
    .main{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    min-height: 500px;
     .col-xl-3{
-        padding: 0.5rem;
+        padding: 0.2rem;
     }
     #intro{
         padding: 0;

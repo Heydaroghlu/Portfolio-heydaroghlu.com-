@@ -2,25 +2,30 @@
 @media (max-width: 575.98px) {  }
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { 
-    .main{
-        border: none !important;
-    }
+  
  }
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) { 
     .container{
-        max-width: 80% ;
+        max-width: 86% !important ;
     }
     #posterMain{
-        .main{
-            border: none !important;
-        }
+        
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+        height: 500px !important;
         display: block;
+    }
+    .main{
+        border: none !important;
     }
     #right{
         display: none !important;
     }
+    .about2{
+        display: block !important ;
+    }
+    
  }
 
 // Large devices (desktops, less than 1200px)
@@ -32,7 +37,11 @@
         #right{
             display: block;
         }
+        .about2{
+            display: none ;
+        }
     }
+  
     #menu{
         top: 0%;
         padding-top: 2rem;

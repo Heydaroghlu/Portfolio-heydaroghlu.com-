@@ -4,7 +4,7 @@ body{
         max-width: 76%;
     }
     background-color: #1d1b19;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     a{
         text-decoration: none !important;
     }
@@ -12,6 +12,9 @@ body{
    box-sizing: border-box;
    .row{
     --bs-gutter-x: 0rem !important;
+   }
+   .row{
+    padding: 1rem !important;
    }
 }
 .upper{
